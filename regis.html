@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./regis2.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+</head>
+<body class="bg-light">
+
+        <h1 class="display-2 text-center pb-3 fw-semibold">Registration Form</h1>
+        <img class="regi" src="https://img.lovepik.com/element/45009/2311.png_300.png" alt="image not available">
+        <form class="m-5 bg-info h-25" >
+    <!--username-->
+    <div>
+        <label class="form-label" class="first" for="username">Username</label>
+        <input  class="input-group-text w-75" type="text" name="username" id="username" placeholder="Enter the username" autocomplete="">
+    </div>
+    <!--password-->
+    <div>
+        <label  class="form-label"class="first" for="password">Password</label>
+        <input class="input-group-text w-75" type="password" name="password" id="password">
+    </div>
+    <div>
+        <label  class="form-label" class="first" for="confirm_password">Confirm Password</label>
+        <input class="input-group-text w-75" type="password" name="confirm_password" id="confirm_password">
+    </div>
+    <!--salary-->
+    <div>
+        <label  class="form-label" class="first" for="salary">Salary</label>
+        <input class="input-group-text w-75" type="number" name="salary" id="salary">
+    </div>
+    <!--date of birth-->
+    <div>
+        <label  class="form-label" class="first" for="date of birth"> DOB</label>
+        <input class="input-group-text w-75" type="date" name="date of birth" id="date of birth">
+    </div>
+    <!--email-->
+    <div>
+<label  class="form-label" class="first" for="email">Email</label>
+<input class="input-group-text w-75" type="email" name="email" id="email">
+    </div>
+    <!--select states-->
+<div>
+    <label class="form-label"  for="state">Select your state</label>
+    <select  class="form-select w-75"name="state" id="state" >
+        <option value="Telangane">Telangana</option>
+        <option value="Andra pradesh">Andra pradesh</option>
+        <option value="karnataka">Karnataka</option>
+        <option value="jammu">Jammu and Kashmir</option>
+    </select>
+</div>
+    <!--file-->
+    <div>
+        <label class="form-label"  class="first" for="file">Upload Profile Photo</label>
+        <input class="input-group-text w-75 " type="file" name="file" id="file">
+    </div>
+    <!--check box-->
+<div >
+    <label  class="form-label fs-4" class="">Select skills</label>
+    <div>
+        <input class="first" type="checkbox" name="html" id="html">
+        <label class="first" for="html">HTML</label>
+    </div>
+    <div>
+        <input type="checkbox" name="CSS" id="CSS">
+        <label class="first" for="CSS">CSS</label>
+    </div>
+    <div>
+        <input type="checkbox" name="javascript" id="js">
+        <label for="js">JAVASCRIPT</label>
+    </div>
+    <div>
+        <input type="checkbox" name="python" id="python">
+        <label for="python">PYTHON</label>
+    </div>
+</div>  
+<!--radio example-->
+<div>
+    <label   class="form-label fs-5" class=""  for="">Select Gender of the Applicant</label>
+    <div>
+        <input type="radio" name="gender" id="male">
+        <label class="first" for="male">MALE</label>
+    </div>
+    <div>
+        <input type="radio" name="gender" id="female">
+        <label  class="form-label" class="first" for="female">FEMALE</label>
+    </div>
+</div>
+
+
+<!--button-->
+<button  class="btn btn-success d-block m-auto pt-1 mt-2"type="submit">Register</button>
+
+</form>   
+</body>
+</html>
